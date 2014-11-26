@@ -121,7 +121,7 @@ fi
 %exclude %{_sbindir}/haproxy-systemd-wrapper
 
 %changelog
-* Thu Nov 25 2014 David Stockton <haproxy@tek4-newmedia.co.uk> - 1.5.8
+* Thu Nov 25 2014 David Stockton <haproxy@tek4-newmedia.co.uk> - 1.5.9
 - Update to haproxy 1.5.9
 
 * Thu Oct 31 2014 David Stockton <haproxy@tek4-newmedia.co.uk> - 1.5.8
