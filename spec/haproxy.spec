@@ -6,7 +6,7 @@
 %define haproxy_confdir %{_sysconfdir}/haproxy
 %define haproxy_datadir %{_datadir}/haproxy
 
-%define version 1.5.10
+%define version 1.5.11
 #%define dev_rel dev25
 #%define release 1
 
@@ -121,6 +121,9 @@ fi
 %exclude %{_sbindir}/haproxy-systemd-wrapper
 
 %changelog
+* Sun Jan 31 2015 David Stockton <haproxy@tek4-newmedia.co.uk> - 1.5.10
+- Update to haproxy 1.5.11
+
 * Wed Dec 31 2014 David Stockton <haproxy@tek4-newmedia.co.uk> - 1.5.10
 - Update to haproxy 1.5.10
 
