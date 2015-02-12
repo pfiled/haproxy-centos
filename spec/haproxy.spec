@@ -53,7 +53,7 @@ possibility not to expose fragile web servers to the net.
 use_regparm="USE_REGPARM=1"
 %endif
 
-make %{?_smp_mflags} CPU="generic" TARGET="linux26" USE_PCRE=1 USE_OPENSSL=1 USE_ZLIB=1 ${use_regparm}
+make %{?_smp_mflags} CPU="generic" TARGET="linux26" USE_PCRE=1 USE_OPENSSL=1 USE_ZLIB=1  SMALL_OPTS=-DSYSTEM_MAXCONN=12000  ${use_regparm}
 
 pushd contrib/halog
 make halog
