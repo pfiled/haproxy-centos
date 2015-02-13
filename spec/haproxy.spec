@@ -6,7 +6,10 @@
 %define haproxy_confdir %{_sysconfdir}/haproxy
 %define haproxy_datadir %{_datadir}/haproxy
 
-%define version 1.5.11
+# _VERSION is replaced by the latest version number,
+# see http://jenkins1-eu1:8080/job/Build_HAProxy_RPM/configure
+%define version _VERSION
+
 #%define dev_rel dev25
 #%define release 1
 
