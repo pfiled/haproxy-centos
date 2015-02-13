@@ -124,6 +124,9 @@ fi
 %exclude %{_sbindir}/haproxy-systemd-wrapper
 
 %changelog
+* _COMPILE_DATE Mr Jenkins <jenkins@cakesolutions.net> - _VERSION
+- Update to _VERSION
+
 * Sun Jan 31 2015 David Stockton <haproxy@tek4-newmedia.co.uk> - 1.5.10
 - Update to haproxy 1.5.11
 
