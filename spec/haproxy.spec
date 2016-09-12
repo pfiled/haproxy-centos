@@ -121,7 +121,6 @@ fi
 %{_bindir}/halog
 %{_mandir}/man1/%{name}.1.gz
 %attr(-,%{haproxy_user},%{haproxy_group}) %dir %{haproxy_home}
-%exclude %{_sbindir}/haproxy-systemd-wrapper
 
 %changelog
 * _COMPILE_DATE Mr Jenkins <jenkins@cakesolutions.net> - _VERSION
