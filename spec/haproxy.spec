@@ -7,8 +7,8 @@
 %define haproxy_datadir %{_datadir}/haproxy
 
 # _VERSION is replaced by the latest version number,
-# see http://jenkins1-eu1:8080/job/Build_HAProxy_RPM/configure
 %define version _VERSION
+%define haproxy_main_version _HAPROXY_MAIN_VERSION
 
 #%define dev_rel dev25
 #%define release 1
@@ -21,7 +21,7 @@ License: GPLv2+
 URL: http://www.haproxy.org/
 Group: System Environment/Daemons
 
-Source0: http://www.haproxy.org/download/1.5/src/haproxy-%{version}.tar.gz
+Source0: http://www.haproxy.org/download/%{haproxy_main_version}/src/haproxy-%{version}.tar.gz
 Source1: haproxy.init
 Source2: haproxy.cfg
 Source3: haproxy.logrotate
